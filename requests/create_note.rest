@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "probando titulo",
+    "body": "esto es una nueva nota"
+}
+
+###
+
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+
+{
+}
